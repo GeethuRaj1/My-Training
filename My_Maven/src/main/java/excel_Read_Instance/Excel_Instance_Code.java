@@ -24,6 +24,7 @@ public class Excel_Instance_Code {
 	
 	public String readSheet(int row,int column)throws Exception
 	{
+		System.out.println("New");
 		Row r=sh.getRow(row);
 		Cell c=r.getCell(column);
 		int type=c.getCellType();
