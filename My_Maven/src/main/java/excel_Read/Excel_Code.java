@@ -20,6 +20,7 @@ public class Excel_Code {
 		file=new FileInputStream("\\C:\\Users\\User\\Desktop\\Book1.xlsx\\"); // exception FileNotFound
 		w=new XSSFWorkbook(file); // exception Input Output
 		s=w.getSheet("Data"); // sheet name
+		System.out.println("TEST");
 		//data sheet;;
 	
 	// find row and column ... Row, Cell are interface
